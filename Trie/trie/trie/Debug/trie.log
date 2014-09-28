@@ -1,0 +1,18 @@
+﻿Build started 3/13/2014 5:13:18 PM.
+     1>Project "C:\250\p3\trie\trie\trie.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Trie_driver.cpp
+         Trie_driver.cpp
+     1>c:\250\p3\ece250.h(416): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\250\p3\ece250.h(455): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\250\p3\trie.h(75): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\250\p3\trie.h(92): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\250\p3\trie.h(118): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\250\p3\trie\Debug\trie.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\250\p3\trie\Debug\trie.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\250\p3\trie\Debug\trie.lib" /MACHINE:X86 Debug\Trie_driver.obj
+         trie.vcxproj -> C:\250\p3\trie\Debug\trie.exe
+     1>Done Building Project "C:\250\p3\trie\trie\trie.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.67
